@@ -9,7 +9,19 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 {
   "theme": "Seti.sublime-theme",
   "color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
-  "caret_extra_width": 2 // to have a wider/thicker caret
+  "caret_extra_width": 2 // to have a wider/thicker caret,
+
+  "Seti_mouse_wheel_tabswitche": true,
+  "Seti_no_bar_undertabs": true,
+
+  // don't enable all at once
+  "Seti_tabs_small": true,
+  "Seti_tabs_med": true,
+
+  // don't enable all at once
+  "Seti_ClosedFolder_same": true,
+  "Seti_ClosedFolder_remove": true,
+  "Seti_ClosedFolder_dots": true,
 }
 ```
 
@@ -28,5 +40,3 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
   |-File_Types  > are for testing the icons with, if you don't need it you can simply remove it.
 
   |-Not_Working > are icon setting files for some files which i don't currently have any '?-syntax.tmlanguage' for, so again if you don't need any of them you can remove it as well.
-
-  |-Open_Folder > a couple of options incase you dont like the default Open_Folder icons ,or if you want to get rid of the whole thing.

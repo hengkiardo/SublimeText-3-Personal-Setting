@@ -25,9 +25,9 @@ Theme is listed as `Seti_UI` in Will Bond's [Sublime Package Control](https://su
 ### Manual
 
 1. [Download the .zip](https://github.com/ctf0/Seti_ST3/archive/master.zip).
-2. Unzip and rename the folder to ```Seti_UI```.
+2. Unzip and rename the folder to ``Seti_UI``.
 3. Copy the folder into `Packages` directory, which you can find using the menu item `Preferences -> Browse Packages...` in Sublime Text.
-4. copy the (fold.png) "or edit it to ur liking" to ```Packages/Theme - Default``` to override the _focken default yellow icon.
+4. copy the (fold.png) "or edit it to ur liking" to ``Packages/Theme - Default`` to override the _focken default yellow icon.
 
 ## Setup
 
@@ -38,9 +38,38 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 {
   "theme": "Seti.sublime-theme",
   "color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
-  "caret_extra_width": 2 // to have a wider/thicker caret
+  "caret_extra_width": 2,                                 //  to have a wider/thicker caret
+   "overlay_scroll_bars": "enabled",                      //  to show scrollbars only when scrolling
+   "highlight_line": true,                                //  to highlight the current line
 }
 ```
+
+#### Options
+`Themr` have an option call ``Themr: Toggle Theme Settings`` to change theme settings on-the-fly , or manually add what you need.
+
+```
+{
+  "Seti_mouse_wheel_tabswitche": true,      	// allow tab switching with mouse wheel
+  "Seti_no_bar_undertabs": true,                // remove the 4px bar under the tabs
+
+  // don't enable both at once
+  "Seti_tabs_small": true,                      // tabs height = 35
+  "Seti_tabs_med": true,                   	    // tabs height = 40
+
+  // don't enable all at once
+  "Seti_ClosedFolder_same": true,            	// same icon as the Opened_folder icon
+  "Seti_ClosedFolder_remove": true,         	// remove closed_folder icon
+  "Seti_ClosedFolder_dots": true,               // change closed_folder icon to dot
+  
+  // settings for scrollBars
+  "Seti_SB_v_med": true,                        // sb vertical width = 6
+  "Seti_SB_v_big": true,                        // sb vertical width = 10
+  "Seti_SB_h_med": true,                        // sb horzintal height = 6
+  "Seti_SB_h_big": true,                        // sb horzintal height = 10
+  
+}
+```
+
 
 
 ## Credits
